@@ -1,0 +1,21 @@
+body {
+	background-color: blanchedalmond;
+	font-family: 'Montserrat', sans-serif;
+	padding: 50px;
+}
+h1 {
+	margin-bottom: 50px;
+}
+
+.ko-text {
+	margin-bottom: 30px;
+}
+
+.ko-select {
+	width: 200px;
+	margin-top: 15px;
+}
+
+.ko-button {
+	margin-top: 15px;
+}

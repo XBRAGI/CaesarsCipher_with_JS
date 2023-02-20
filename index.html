@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container text-center ">
+		<div class="row">
+		<h1>Шифр Цезаря</h1>
+		  <div class="col col-lg-6 col-sm-12 ko-text">
+				<div class="form-floating">
+					<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea1" style="height: 300px"></textarea>
+					<label for="floatingTextarea2">Напишиет текст, который хотите зашифровать</label>
+				</div>
+				<div class="row">
+					<div class="col">
+						<select class="form-select ko-select" aria-label="Default select example" id="select">
+						<option selected>Сдвиг:</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+					 </select>
+					</div>
+					<div class="col">
+						<div class="d-grid gap-2 d-md-block ko-button">
+							<button id="button1" class="btn btn-primary" type="button">Зашифровать</button>
+							<button id="button2" class="btn btn-primary" type="button">Расшифровать</button>
+						 </div>
+					</div>
+				</div>
+		  </div>
+		  <div class="col col-lg-6 col-sm-12">
+				<div class="form-floating">
+					<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 300px"></textarea>
+					<label for="floatingTextarea2"></label>
+				</div>
+		  </div>
+		</div>
+	 </div>
+</body>
+<script src="./app.js"></script>
+</html>
